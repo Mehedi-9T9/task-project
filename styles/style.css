@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    width: 1300px;
+    height: 700px;
+    background-image: url("../images/banner/banner1.png");
+    /* padding: 200px 100px 400px 400px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.header-container {
+    width: 600px;
+    height: 300px;
+    position: relative;
+
+    left: 100%;
+    top: 50%;
+    transform: translate(-120%, -50%);
+    text-align: end;
+
+
+
+}
+
+.header-container h1 {
+    font-size: 65px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.header-container p {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.header-container button {
+    margin: 20px 10px;
+    padding: 20px;
+    border: none;
+    background-color: #F15B22;
+    border-radius: 5px;
+
+
+}
